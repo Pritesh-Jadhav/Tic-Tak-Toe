@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background-color: darkgray;
+}
+.main-box{
+    height: 292px;
+    width: 292px;
+    background-color:darkgray;
+    display: grid;                
+    grid-template-columns: repeat(3, 100px);  
+    grid-template-rows: repeat(3, 100px);     
+    gap: 1px;
+}
+.box{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    box-shadow: 1px 1px 1px 1px black;
+    border: none;
+    border-radius: 1.2rem;
+    font-size: 2.5rem;
+}
+#reset-btn{
+    margin: 25rem 0rem 0rem 0rem;
+    border-radius: 12px;
+    height: 30px;
+    width: 50px;
+}
